@@ -8,7 +8,7 @@ const PrevBtn = () => {
     }
 
     return(
-        <button onClick={prev}>-</button>
+        <button type="button" className="btn btn-danger"  onClick={prev}>-</button>
     )
    
 }

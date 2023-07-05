@@ -10,8 +10,8 @@ const NextBtn = () => {
     }
 
     return(
-        <button onClick={next}>+</button>
+        <button type="button" className="btn btn-success m-3"  onClick={next}>+</button>
     )
 }
 
-export default NextBtn
+export default NextBtn 

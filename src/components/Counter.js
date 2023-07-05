@@ -5,8 +5,8 @@ const Counter = () => {
  const {counter, setCounter} = useContext(CounterContext);
     return(
 
-        <h2>{counter}</h2>
-    )
+        <h2 className=" border border-info p-1 m-5 rounded-pill">{counter}</h2> 
+    ) 
 }
 
 export default Counter
